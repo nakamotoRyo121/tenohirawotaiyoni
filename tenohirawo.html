@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tenohirawotaiyoni</title>
+    <style>
+        html {
+            overflow: hidden;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100dvh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        h3 {
+            margin: 0;
+            position: absolute;
+            text-align: center;
+            color: #D20A13;
+            font-family: serif;
+            line-height: 1.6em;
+            /* opacity: 0; */
+        }
+        .poem {
+            /* width: 100vw; */
+            /* height: 100%; */
+            opacity: 0;
+        }
+        p {
+            margin: 1.6rem auto;
+            color: #a1b6be;
+            font-family: serif;
+            font-size: 0.9rem;
+            text-align: justify;
+            line-height: 1.16em;
+            opacity: 0.4;
+        }
+        .blood {
+            height: 100dvh;
+            background-color: white;
+            opacity: 0;
+        }
+        .blood-layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: 200% 200%;
+            background-position: 50% 50%;
+        }
+        .blood-layer.color1 {
+            background-image: radial-gradient(ellipse farthest-corner at 40% 50%, rgba(210,10,19,.7) 10%, transparent 68%);
+            animation: move1 30s ease-in-out infinite;
+            will-change: move1;
+        }
+        /* .blood-layer.color2 {
+            background-image: radial-gradient(circle farthest-corner at 50% 36%, rgba(255,199,175,.7) 1%, transparent 46%);
+            animation: move2 16s ease-in-out infinite;
+            will-change: move2;
+        } */
+        .blood-layer.color3 {
+            background-image: radial-gradient(ellipse farthest-corner at 38% 62%, rgba(255,142,113,.7) 1%, transparent 28%);
+            animation: move3 32s ease-in-out infinite;
+            will-change: move3;
+        }
+        .blood-layer.color4 {
+            background-image: radial-gradient(ellipse farthest-corner at 60% 50%, rgba(220, 51, 44,.7) 10%, transparent 54%);
+            animation: move4 31s ease-in-out infinite;
+            will-change: move4;
+        }
+        .blood-layer.color5 {
+            background-image: radial-gradient(ellipse farthest-corner at 50% 50%, rgba(166, 31, 0,.7) 1%, transparent 58%);
+            animation: move5 24s ease-in-out infinite;
+            will-change: move5;
+        }
+        .blood-layer.color6 {
+            background-image: radial-gradient(ellipse farthest-corner at 50% 50%, rgba(210,10,19,.9) 1%, transparent 46%);
+            animation: move6 31s ease-in-out infinite;
+            will-change: move6;
+        }
+        .blood-layer.color7 {
+            background-image: radial-gradient(ellipse farthest-corner at 50% 50%, rgba(255,199,175,.7) 1%, transparent 62%);
+            animation: move7 40s ease-in-out infinite;
+            will-change: move7;
+        }
+        .blood-layer.color8 {
+            background-image: radial-gradient(ellipse farthest-corner at 50% 50%, rgba(255,142,113,.7) 1%, transparent 82%);
+            animation: move8 40s ease-in-out infinite;
+            will-change: move8;
+        }
+        @keyframes move1 {
+            0% {background-position: 50% 50%}
+            50% {background-position: 100% 400%}
+            100% {background-position: 50% 50%}
+        }
+        @keyframes move2 {
+            0% {background-position: 50% 50%}
+            50% {background-position: 400% 0%}
+            100% {background-position: 50% 50%}
+        }
+        @keyframes move3 {
+            0% {background-position: 50% 30%}
+            50% {background-position: -400% 120%}
+            100% {background-position: 50% 30%}
+        }
+        @keyframes move4 {
+            0% {background-position: 20% 50%}
+            50% {background-position: 40% -400%}
+            100% {background-position: 20% 50%}
+        }
+        @keyframes move5 {
+            0% {background-position: 80% 10%}
+            50% {background-position: 20% -120%}
+            100% {background-position: 80% 10%}
+        }
+        @keyframes move6 {
+            0% {background-position: 20% 30%}
+            50% {background-position: 280% -110%}
+            100% {background-position: 20% 30%}
+        }
+        @keyframes move7 {
+            0% {background-position: 50% 0%}
+            50% {background-position: 50% 100%}
+            100% {background-position: 50% 0%}
+        }
+        @keyframes move8 {
+            0% {background-position: 50% 100%}
+            50% {background-position: 50% 0%}
+            100% {background-position: 50% 100%}
+        }
+    </style>
+</head>
+<body>
+    <h3 class="text">スクリーンを太陽に</h3>
+    <div class="poem">
+        <p>
+            ぼくらはみんな　生きている<br>
+            生きているから　歌うんだ<br>
+            ぼくらはみんな　生きている<br>
+            生きているから　かなしいんだ<br>
+            手のひらを太陽に　すかしてみれば<br>
+            まっかに流れる　ぼくの血潮<br>
+            ミミズだって　オケラだって<br>
+            アメンボだって<br>
+            みんな　みんな生きているんだ<br>
+            友だちなんだ
+        </p>
+        <p>
+            ぼくらはみんな　生きている<br>
+            生きているから　笑うんだ<br>
+            ぼくらはみんな　生きている<br>
+            生きているから　うれしいんだ<br>
+            手のひらを太陽に　すかしてみれば<br>
+            まっかに流れる　ぼくの血潮<br>
+            トンボだって　カエルだって<br>
+            ミツバチだって<br>
+            みんな　みんな生きているんだ<br>
+            友だちなんだ
+        </p>
+        <p>
+            ぼくらはみんな　生きている<br>
+            生きているから　おどるんだ<br>
+            ぼくらはみんな　生きている<br>
+            生きているから　愛するんだ<br>
+            手のひらを太陽に　すかしてみれば<br>
+            まっかに流れる　ぼくの血潮<br>
+            スズメだって　イナゴだって<br>
+            カゲロウだって<br>
+            みんな　みんな生きているんだ<br>
+            友だちなんだ
+        </p>
+    </div>
+    <!-- blood gradation -->
+    <div class="blood" aria-hidden="true">
+        <div class="blood-layer color1"></div>
+        <div class="blood-layer color2"></div>
+        <div class="blood-layer color3"></div>
+        <div class="blood-layer color4"></div>
+        <div class="blood-layer color5"></div>
+        <div class="blood-layer color6"></div>
+        <div class="blood-layer color7"></div>
+        <div class="blood-layer color8"></div>
+    </div>
+    <script>
+        // AmbientLightSensor
+        if ("AmbientLightSensor" in window) {
+            const sensor = new AmbientLightSensor({frequency: 10});
+            var animation = false;
+            // read sensor
+            sensor.addEventListener("reading", (event) => {
+                console.log("現在の光レベル", sensor.illuminance);
+                // anime setup
+                const visible = [
+                    {opacity: "1"},
+                ];
+                const invisible = [
+                    {opacity: "0"},
+                ];
+                const textRef = {
+                    duration: 1200,
+                    fill: "forwards"
+                };
+                const animRef = {
+                    duration: 2800,
+                    fill: "forwards"
+                };
+                const poemRef = {
+                    duration: 2000,
+                    fill: "forwards",
+                    delay: 1000,
+                    easing: "ease-in"
+                }
+                const div = document.querySelector(".blood");
+                const h3 = document.querySelector(".text");
+                const p = document.querySelector(".poem");
+                // anime trigger
+                if (!animation && sensor.illuminance >= 30000) {
+                    div.animate(visible, animRef);
+                    h3.animate(invisible, textRef);
+                    p.animate(visible, poemRef);
+                    animation = true;
+                } else if (animation && sensor.illuminance <= 30000) {
+                    div.animate(invisible, animRef);
+                    h3.animate(visible, poemRef);
+                    p.animate(invisible, textRef);
+                    animation = false;
+                };
+            });
+            sensor.start();
+        };
+    </script>
+</body>
+</html>
